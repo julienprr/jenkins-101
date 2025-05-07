@@ -13,7 +13,7 @@ docker build -t myjenkins-blueocean:2.440.1 .
 docker pull devopsjourney1/jenkins-blueocean:2.332.3-1 && docker tag devopsjourney1/jenkins-blueocean:2.332.3-1 myjenkins-blueocean:2.332.3-1
 ```
 
-## Create the network 'jenkins'
+## Create the network 'Jenkins'
 ```
 docker network create jenkins
 ```
